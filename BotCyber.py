@@ -7,13 +7,13 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = TOBY.LINE()
-cl.login(qr=True)
+cl.login(token="Em3EuAuyAkXFZBN8sUo1.epv6ketlsZZBUvnGte+TOq.TZo1gZlbe1A4+zdqt49OqZnj6CbaMWu0QqdJ8pb+xdc=")
 cl.loginResult()
 
 # client_id = ''
 # client_secret = ''
-# access_token = ''
-# refresh_token = ''
+access_token = 'Em3EuAuyAkXFZBN8sUo1.epv6ketlsZZBUvnGte+TOq.TZo1gZlbe1A4+zdqt49OqZnj6CbaMWu0QqdJ8pb+xdc='
+refresh_token = 'Em3EuAuyAkXFZBN8sUo1.epv6ketlsZZBUvnGte+TOq.TZo1gZlbe1A4+zdqt49OqZnj6CbaMWu0QqdJ8pb+xdc='
 
 # client = ImgurClient(client_id, client_secret, access_token, refresh_token)
 
