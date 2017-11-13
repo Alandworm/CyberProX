@@ -1,12 +1,9 @@
 # -*- coding: utf-8 -*-
 
-import TOBY
-from TOBY.lib.curve.ttypes import *
 from datetime import datetime
 # from imgurpython import ImgurClient
 import time,random,sys,json,codecs,threading,glob,re
 
-cl = TOBY.LINE()
 cl.login(token="Em3EuAuyAkXFZBN8sUo1.epv6ketlsZZBUvnGte+TOq.TZo1gZlbe1A4+zdqt49OqZnj6CbaMWu0QqdJ8pb+xdc=")
 cl.loginResult()
 
